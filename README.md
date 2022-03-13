@@ -1,27 +1,28 @@
 # cz_nic
-Job application submission
+Python version: 3.10.0
 
 
 ## Úloha Frontend manualní č. 1.1 – Registrační formulář
-viz [TS_001_Registration.xlsx](https://github.com/silverhound4d/cz_nic/blob/master/TS_001_Registration.xlsx)
+Viz [TS_001_Registration.xlsx](https://github.com/silverhound4d/cz_nic/blob/master/TS_001_Registration.xlsx)
 
 Návrh testovacího scénáře vychází z předokladu, že i když pole "Jméno" je povinné, nejedná se o username, tedy unikátní hodnotu a může existovat více uživatelů se stejným jménem. V opačném případě by bylo potřeba napsat další testy a ověřit, zdali uživatel se stejným jménem již neexistuje.
 
+Dokument uvedený výše neobsahuje žádné "Non-functional" testy.
 
 ## Úloha Frontend manualní č. 1.2 – Registrační formulář
 ### Navrhněte odhad času na manuální otestování dialogu podle Vámi navrženého scénáře
 
-TC_UserReg_001-012 = 2,5min/TC <br>
-TC_UserReg_013-015 = 3min/TC <br>
-Buffer = 10% <br>
-Vzorec = (12 * 2,5 + 3 * 3) * 1.1 <br>
-Odhad = 43 minut <br>
+TC_UserReg_001-012 = 2,5min/TC
+TC_UserReg_013-015 = 3min/TC
+Buffer = 10%
+Vzorec = (12 * 2,5 + 3 * 3) * 1.1
+Odhad = 43 minut
 
 
 ## Úloha Frontend manualní č. 1.3 – Registrační formulář
 ### Představte si, že dialog dovolí registraci i bez vyplněného pole Jméno
 
-Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k takové situaci by dojít nemělo a uživatel by měl být upozorněn odpovídajícím upozorněním. Případně by mohlo být Jméno generováno automaticky...
+Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k takové situaci by dojít nemělo a uživatel by měl být upozorněn odpovídajícím upozorněním. Pokud by pole nebylo povinné a uživatel žádné nezadá, Jméno by mohlo být generováno automaticky...
 
 ## Úloha Dokumentace č. 1 – Uživatelská dokumentace
 
@@ -29,7 +30,7 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 ## Úloha Python č. 1.1 – Krmení geparda
 ### U následujícímu kódu popište, co to dělá. Je v kódu nějaká chyba?
 
-Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 3 metody, přičemž každý nový gepard má právě 9 životů (což je i zároveň maximální počet možných životů).
+Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 3 metody, přičemž každý nový gepard má právě 9 životů (což je zároveň maximální počet možných životů).
 
 - je_zivy - Pokud má gepard nějaké životy, return True. Pokud gepard životy nemá, return False.
 - uber_zivot - Pokud má gepard více než 0 životů (je naživu), metoda ubere gepardovy jeden život.
@@ -38,7 +39,7 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
 #### Chyby
 - Chybí "self" v metodě "je_zivy"
 - Nepřehledný formát kódu (not PEP 8 compliant)
-- I když metoda snez funguje, dle mého názoru by bylo čitelnější zbavit se return statementu v 1. if bloku, a 2. if statement nahradit elif, viz níže:</ul>
+- I když metoda snez funguje, dle mého názoru by bylo čitelnější zbavit se return statementu v 1. if bloku, a 2. if statement nahradit elif, viz níže:
 
 ```python
     def snez(self, jidlo):
