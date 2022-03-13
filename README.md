@@ -27,22 +27,22 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 ## Úloha Dokumentace č. 1 – Uživatelská dokumentace
 
 #### CZ
-1. Spusťte prohlížeč.
-2. Navštivte následující webovou adresu: https://www.nic.cz/whois/.
-3. Klikněte na vyhledávací pole uprostřed stránky s popiskem "Doména (bez www.) / identifikátor".
-4. Do vyhledávacího pole zadejte "talbexia.cz".
-5. Klikněte na tlačítko Hledat pod vyhledávacím polem.
-6. Klikněte na odkaz "Ověřený výpis z registru" ve spodní části stránky.
+1. Spusťte prohlížeč
+2. Navštivte následující webovou adresu: https://www.nic.cz/whois/
+3. Klikněte na vyhledávací pole uprostřed stránky s popiskem "Doména (bez www.) / identifikátor"
+4. Do vyhledávacího pole zadejte "talbexia.cz"
+5. Klikněte na tlačítko Hledat pod vyhledávacím polem
+6. Klikněte na odkaz "Ověřený výpis z registru" ve spodní části stránky
 
 #### EN
 1. Launch your browser.
-2. Go to the following URL: https://www.nic.cz/.
-3. On the navigation panel click on "Domains".
-4. On the newly opened Domains sub menu, click on "WHOIS".
-5. Click on the search field labeled as "Domain (without www. prefix) / Handle:".
-6. Enter "tablexia.cz" into the search field.
-7. Hit the Search button below the search field.
-8. Click on the link "Verified record statement" in the lower part of the webpage.
+2. Go to the following URL: https://www.nic.cz/
+3. On the navigation panel click on "Domains"
+4. On the newly opened Domains sub menu, click on "WHOIS"
+5. Click on the search field labeled as "Domain (without www. prefix) / Handle:"
+6. Enter "tablexia.cz" into the search field
+7. Hit the Search button below the search field
+8. Click on the link "Verified record statement" in the lower part of the webpage
 
 ## Úloha Python č. 1.1 – Krmení geparda
 ### U následujícímu kódu popište, co to dělá. Je v kódu nějaká chyba?
