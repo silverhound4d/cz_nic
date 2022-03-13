@@ -64,3 +64,49 @@ Viz [gepard.py](gepard.py), případně níže.
                 self.snez("ryba")
                 print(f"Současný počet životů {self.pocet_zivotu}")
 ```
+
+## Úloha Python č. 2.1 – Odeslání SMS
+
+Viz [main_process_message.py](main_process_message.py)
+
+#### Příklad spuštění
+```bash
+python main_process_message.py <path to csv file>
+```
+
+## Úloha Python č. 2.2 – Odeslání SMS
+### Napište testovací třídu s využitím testovacího frameworku (unittest, nosetests, pytest), která pokryje metodu send_sms automatickými testy
+
+Viz [odeslat_sms/tests](www.seznam.cz)
+
+#### Příklad spuštění
+```bash
+python -m pytest odeslat_sms/tests
+```
+
+## Úloha Frontend automatický č. 1 – Selenium Webdriver
+### 1.1 Popište, co dělá následující kód
+
+Viz komentáře v souboru [fronetend_uloha](fronetend_uloha)
+
+### 1.2 Jaké metody selenium nabízí pro lokalizaci elementů
+
+Viz dokumentace: https://selenium-python.readthedocs.io/locating-elements.html
+
+Kdykoliv to jde, používat "id" lokátor. Pokud nelze, relative xpath/css selectors. Případně jakýkoliv z jiných způsobů uvedených v dokumentaci (link_text, partial_link_text, class_name...).
+
+### 1.3 Dokážete popsat rozdíl mezi Google Chrome a ChromeDriver?
+- Google Chrome - Prohlížeč, interpretuje HTML kód.
+- ChromeDriver - Software, který nám umožňuje automatizovat ovládání prohlížeče skrz nejrůznější bindings/API calls.
+
+
+## Úloha Frontend automatický č. 2 – Selenium Webdriver
+Viz [mojeid_registration](www.seznam.cz)
+
+#### Příklad spuštění
+```bash
+python -m pytest mojeid_registration/tests
+```
+
+## Úloha SQL č. 1 – object_registry
+Bohužel mám momentálně omezenou zkušenost s NoSQL databázemi (MongoDB), ale SQL bohužel neovládám, velice rád se samozřejmě naučím.
