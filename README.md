@@ -9,8 +9,7 @@ Návrh testovacího scénáře vychází z předokladu, že i když pole "Jméno
 
 Dokument uvedený výše neobsahuje žádné "Non-functional" testy.
 
-## Úloha Frontend manualní č. 1.2 – Registrační formulář
-### Navrhněte odhad času na manuální otestování dialogu podle Vámi navrženého scénáře
+### 1.2 Navrhněte odhad času na manuální otestování dialogu podle Vámi navrženého scénáře
 
 TC_UserReg_001-012 = 2,5min/TC\
 TC_UserReg_013-015 = 3min/TC\
@@ -19,8 +18,7 @@ Vzorec = (12 * 2,5 + 3 * 3) * 1.1\
 Odhad = 43 minut
 
 
-## Úloha Frontend manualní č. 1.3 – Registrační formulář
-### Představte si, že dialog dovolí registraci i bez vyplněného pole Jméno
+## 1.3 Představte si, že dialog dovolí registraci i bez vyplněného pole Jméno
 
 Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k takové situaci by dojít nemělo a uživatel by měl být upozorněn odpovídajícím upozorněním. Pokud by pole nebylo povinné a uživatel žádné nezadá, Jméno by mohlo být generováno automaticky...
 
@@ -56,8 +54,8 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
 
 #### Chyby
 - Chybí "self" v metodě "je_zivy"
-- Nepřehledný formát kódu (not PEP 8 compliant)
-- I když metoda snez funguje, dle mého názoru by bylo čitelnější zbavit se return statementu v 1. if bloku, a 2. if statement nahradit elif, viz níže:
+- Nepřehledný formát kódu, bez místa mezi jednotlivými funkcemi
+- I když metoda snez funguje, dle mého názoru by bylo čitelnější zbavit se prázného return statementu v 1. if bloku, a 2. if statement nahradit elif, viz níže:
 
 ```python
     def snez(self, jidlo):
@@ -70,7 +68,7 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
             print("Gepard se krmi.")
 ```
 
-### 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj dalšíryba nevejde.
+## 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj další ryba nevejde.
 Viz [gepard.py](https://github.com/silverhound4d/cz_nic/blob/master/gepard.py), případně níže.
 ```python
     def napapej_se(self):
@@ -98,8 +96,7 @@ Viz [cz_nic/odeslat_sms/](https://github.com/silverhound4d/cz_nic/tree/master/od
 python main_process_message.py <path to csv file>
 ```
 
-## Úloha Python č. 2.2 – Odeslání SMS
-### Napište testovací třídu s využitím testovacího frameworku (unittest, nosetests, pytest), která pokryje metodu send_sms automatickými testy
+### 2.2 Napište testovací třídu s využitím testovacího frameworku (unittest, nosetests, pytest), která pokryje metodu send_sms automatickými testy
 
 Viz [odeslat_sms/tests](https://github.com/silverhound4d/cz_nic/tree/master/odeslat_sms/tests)
 
@@ -108,8 +105,8 @@ Viz [odeslat_sms/tests](https://github.com/silverhound4d/cz_nic/tree/master/odes
 python -m pytest odeslat_sms/tests
 ```
 
-## Úloha Frontend automatický č. 1 – Selenium Webdriver
-### 1.1 Popište, co dělá následující kód
+## Úloha Frontend automatický č. 1.1 – Selenium Webdriver
+### Popište, co dělá následující kód
 
 Viz komentáře v souboru [fronetend_uloha.py](https://github.com/silverhound4d/cz_nic/blob/master/frontend_uloha.py)
 
