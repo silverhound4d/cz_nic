@@ -12,11 +12,11 @@ Dokument uvedený výše neobsahuje žádné "Non-functional" testy.
 ## Úloha Frontend manualní č. 1.2 – Registrační formulář
 ### Navrhněte odhad času na manuální otestování dialogu podle Vámi navrženého scénáře
 
-TC_UserReg_001-012 = 2,5min/TC
-TC_UserReg_013-015 = 3min/TC
-Buffer = 10%
-Vzorec = (12 * 2,5 + 3 * 3) * 1.1
-Odhad = 43 minut
+TC_UserReg_001-012 = 2,5min/TC\
+TC_UserReg_013-015 = 3min/TC\
+Buffer = 10%\
+Vzorec = (12 * 2,5 + 3 * 3) * 1.1\
+Odhad = 43 minut\
 
 
 ## Úloha Frontend manualní č. 1.3 – Registrační formulář
