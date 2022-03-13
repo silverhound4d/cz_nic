@@ -25,6 +25,7 @@ Odhad = 43 minut
 Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k takové situaci by dojít nemělo a uživatel by měl být upozorněn odpovídajícím upozorněním. Pokud by pole nebylo povinné a uživatel žádné nezadá, Jméno by mohlo být generováno automaticky...
 
 ## Úloha Dokumentace č. 1 – Uživatelská dokumentace
+### Napište v češtině a angličtině uživatelský návod pro scénář "V systému 'VYHLEDÁVÁNÍ V REGISTRU (WHOIS)' na stránkách nic.cz stáhnout 'Ověřený výpis z registru' držitele domény 'tablexia.cz'"
 
 #### CZ
 1. Spusťte prohlížeč
