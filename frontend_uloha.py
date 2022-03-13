@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 class PythonOrgSearch(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()  # Setup method - that runs before each test, instantiates webdriver.
+        self.driver = webdriver.Chrome()  # Setup method - runs before each test, instantiates webdriver.
 
     def test_search_in_python_org(self):
         driver = self.driver

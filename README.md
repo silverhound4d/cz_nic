@@ -3,7 +3,7 @@ Job application submission
 
 
 ## Úloha Frontend manualní č. 1.1 – Registrační formulář
-viz soubor TS_001_Registration.xlsx
+viz [TS_001_Registration.xlsx](https://github.com/silverhound4d/cz_nic/blob/master/TS_001_Registration.xlsx)
 
 Návrh testovacího scénáře vychází z předokladu, že i když pole "Jméno" je povinné, nejedná se o username, tedy unikátní hodnotu a může existovat více uživatelů se stejným jménem. V opačném případě by bylo potřeba napsat další testy a ověřit, zdali uživatel se stejným jménem již neexistuje.
 
@@ -52,7 +52,7 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
 ```
 
 ### 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj dalšíryba nevejde.
-Viz [gepard.py](gepard.py), případně níže.
+Viz [gepard.py](https://github.com/silverhound4d/cz_nic/blob/master/gepard.py), případně níže.
 ```python
     def napapej_se(self):
         if not self.je_zivy():
@@ -67,9 +67,9 @@ Viz [gepard.py](gepard.py), případně níže.
 
 ## Úloha Python č. 2.1 – Odeslání SMS
 
-Viz [main_process_message.py](main_process_message.py)
+Viz [cz_nic/odeslat_sms/](https://github.com/silverhound4d/cz_nic/tree/master/odeslat_sms)
 
-#### Příklad spuštění
+#### Kód je spustitelný skrz soubor main_process_message.py v kmenovém adresáři
 ```bash
 python main_process_message.py <path to csv file>
 ```
@@ -77,7 +77,7 @@ python main_process_message.py <path to csv file>
 ## Úloha Python č. 2.2 – Odeslání SMS
 ### Napište testovací třídu s využitím testovacího frameworku (unittest, nosetests, pytest), která pokryje metodu send_sms automatickými testy
 
-Viz [odeslat_sms/tests](www.seznam.cz)
+Viz [odeslat_sms/tests](https://github.com/silverhound4d/cz_nic/tree/master/odeslat_sms/tests)
 
 #### Příklad spuštění
 ```bash
@@ -87,7 +87,7 @@ python -m pytest odeslat_sms/tests
 ## Úloha Frontend automatický č. 1 – Selenium Webdriver
 ### 1.1 Popište, co dělá následující kód
 
-Viz komentáře v souboru [fronetend_uloha](fronetend_uloha)
+Viz komentáře v souboru [fronetend_uloha.py](https://github.com/silverhound4d/cz_nic/blob/master/frontend_uloha.py)
 
 ### 1.2 Jaké metody selenium nabízí pro lokalizaci elementů
 
@@ -101,7 +101,7 @@ Kdykoliv to jde, používat "id" lokátor. Pokud nelze, relative xpath/css selec
 
 
 ## Úloha Frontend automatický č. 2 – Selenium Webdriver
-Viz [mojeid_registration](www.seznam.cz)
+Viz [mojeid_registration](https://github.com/silverhound4d/cz_nic/tree/master/mojeid_registration)
 
 #### Příklad spuštění
 ```bash
