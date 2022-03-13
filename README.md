@@ -68,7 +68,7 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
             print("Gepard se krmi.")
 ```
 
-## 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj další ryba nevejde.
+### 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj další ryba nevejde.
 Viz [gepard.py](https://github.com/silverhound4d/cz_nic/blob/master/gepard.py), případně níže.
 ```python
     def napapej_se(self):
