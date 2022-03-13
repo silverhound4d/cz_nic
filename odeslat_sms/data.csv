@@ -1,0 +1,7 @@
+phone_number;message
++4209794954954694651854;This message won't get sent.
++420.773748979;This message should actually be sent successfully.
++420773748979;This one should fail as well, more than 255 chars – printer goes bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+(420)773-748-979;This one should also get sent successsfully.;pass
++420.773748979;;
++420.773748979;255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255characters255255ch
