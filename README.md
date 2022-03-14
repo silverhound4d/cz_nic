@@ -55,18 +55,7 @@ Kód umožňuje vytvořit "Gepard" objekt, na který posléze můžeme použít 
 #### Chyby
 - Chybí "self" v metodě "je_zivy"
 - Nepřehledný formát kódu, bez místa mezi jednotlivými funkcemi
-- I když metoda snez funguje, dle mého názoru by bylo čitelnější zbavit se prázného return statementu v 1. if bloku, a 2. if statement nahradit elif, viz níže:
 
-```python
-    def snez(self, jidlo):
-        if not self.je_zivy():
-            print("Je zbytecne krmit mrtve zvire!")
-        elif jidlo == "ryba" and self.pocet_zivotu < 9:
-            self.pocet_zivotu += 1
-            print("Gepard spapal rybu a obnovil se mu jeden zivot.")
-        else:
-            print("Gepard se krmi.")
-```
 
 ### 1.2 Navrhněte metodu "napapej_se", která postupně po jedné rybě nakrmí geparda, až už se do něj další ryba nevejde.
 Viz [gepard.py](https://github.com/silverhound4d/cz_nic/blob/master/gepard.py), případně níže.
