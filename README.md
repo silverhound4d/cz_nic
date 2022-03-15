@@ -25,7 +25,7 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 ## Úloha Dokumentace č. 1 – Uživatelská dokumentace
 ### Napište v češtině a angličtině uživatelský návod pro scénář "V systému 'VYHLEDÁVÁNÍ V REGISTRU (WHOIS)' na stránkách nic.cz stáhnout 'Ověřený výpis z registru' držitele domény 'tablexia.cz'"
 
-#### CZ
+### CZ
 1. Spusťte prohlížeč
 2. Navštivte následující webovou adresu: https://www.nic.cz/whois/
 3. Klikněte na vyhledávací pole uprostřed stránky s popiskem "Doména (bez www.) / identifikátor"
@@ -33,7 +33,7 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 5. Klikněte na tlačítko Hledat pod vyhledávacím polem
 6. Klikněte na odkaz "Ověřený výpis z registru" ve spodní části stránky
 
-#### EN
+### EN
 1. Launch your browser.
 2. Go to the following URL: https://www.nic.cz/
 3. On the navigation panel click on "Domains"
@@ -42,6 +42,30 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 6. Enter "tablexia.cz" into the search field
 7. Hit the Search button below the search field
 8. Click on the link "Verified record statement" in the lower part of the webpage
+
+### CZ
+#### 1. WHOIS
+Registr WHOIS umožňuje vyhledávat v doménových jménech, kontaktech a sadách nameserverů.
+
+##### 1.1 VYHLEDÁVÁNÍ V REGISTRU (WHOIS)
+Pro vyhledávání v registru vkládejte doménová jména ve tvaru domenovejmeno.cz s .cz na konci a bez úvodního www (např. nic.cz). Identifikátory kontaktu nebo sady jmenných serverů vkládejte jako běžný text. 
+
+##### 1.2 OVĚŘENÝ VÝPIS Z REGISTRU
+Pro stáhnutí ověřeného výpisu z registru je neprve třeba vyhledat konkrétní doménu v registru. 
+Pokud daná doména existuje, můžete stáhnout ověřený výpis z registru kliknutím na stejnojmený odkaz v dolní části stránky.
+<img src="/cz_nic/assets/Animation.gif" alt="animation" title="verified record statement">
+
+### EN
+#### 1. WHOIS
+Whois searches in domain names, contacts and name server sets.
+
+##### 1.1 SEARCH REGISTER (WHOIS)
+In order to search the register, please enter the domain name without www. prefix, followed by the zone (i.e. nic.cz, not www.nic.cz, nor nic). Enter contact handles or name server sets as plain text. 
+
+##### 1.2 VERIFIED RECORD STATEMENT
+In order to download a verified record statement you need to look up specific domain first. Given your search was successful, you will be able to download the record by clicking on the verified record statement link in the lower part of your screen.
+
+
 
 ## Úloha Python č. 1.1 – Krmení geparda
 ### U následujícímu kódu popište, co to dělá. Je v kódu nějaká chyba?
