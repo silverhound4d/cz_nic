@@ -48,7 +48,7 @@ Bohužel nerozumím přesně zadání. Jelikož se jedná o povinné pole, k tak
 Registr WHOIS umožňuje vyhledávat v doménových jménech, kontaktech a sadách nameserverů.
 
 ##### 1.1 VYHLEDÁVÁNÍ V REGISTRU (WHOIS)
-Pro vyhledávání v registru vkládejte doménová jména ve tvaru domenovejmeno.cz s .cz na konci a bez úvodního www (např. nic.cz). Identifikátory kontaktu nebo sady jmenných serverů vkládejte jako běžný text. 
+Pro vyhledávání v registru na stránce https://www.nic.cz/whois/ vkládejte doménová jména ve tvaru domenovejmeno.cz s .cz na konci a bez úvodního www (např. nic.cz). Identifikátory kontaktu nebo sady jmenných serverů vkládejte jako běžný text. 
 
 ##### 1.2 OVĚŘENÝ VÝPIS Z REGISTRU
 Pro stáhnutí ověřeného výpisu z registru je neprve třeba vyhledat konkrétní doménu v registru. 
@@ -61,11 +61,10 @@ Pokud daná doména existuje, můžete stáhnout ověřený výpis z registru kl
 Whois searches in domain names, contacts and name server sets.
 
 ##### 1.1 SEARCH REGISTER (WHOIS)
-In order to search the register, please enter the domain name without www. prefix, followed by the zone (i.e. nic.cz, not www.nic.cz, nor nic). Enter contact handles or name server sets as plain text. 
+In order to search the register, which can be find at URL: https://www.nic.cz/whois/, please enter domain names without www. prefix, followed by the zone (i.e. nic.cz, not www.nic.cz, nor nic). Enter contact handles or name server sets as plain text. 
 
 ##### 1.2 VERIFIED RECORD STATEMENT
 In order to download a verified record statement you need to look up specific domain first. Given your search was successful, you will be able to download the record by clicking on the verified record statement link in the lower part of your screen.
-
 
 
 ## Úloha Python č. 1.1 – Krmení geparda
