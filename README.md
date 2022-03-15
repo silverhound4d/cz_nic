@@ -53,7 +53,8 @@ Pro vyhledávání v registru vkládejte doménová jména ve tvaru domenovejmen
 ##### 1.2 OVĚŘENÝ VÝPIS Z REGISTRU
 Pro stáhnutí ověřeného výpisu z registru je neprve třeba vyhledat konkrétní doménu v registru. 
 Pokud daná doména existuje, můžete stáhnout ověřený výpis z registru kliknutím na stejnojmený odkaz v dolní části stránky.
-<img src="/cz_nic/tree/master/assets/Animation.gif" alt="animation" title="verified record statement">
+
+![](https://github.com/silverhound4d/cz_nic/blob/master/assets/Animation.gif)
 
 ### EN
 #### 1. WHOIS
