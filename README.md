@@ -30,15 +30,17 @@ Uživatel se může zaregistrovat bez zadání jakýchkoliv hodnot do pole Jmén
 \
 Desired: Uživatel je upozorněn, že se nejedná o platné jméno.\
 \
-Steps 1) Navštívit registrační stránku https://www.xxxxxx.cz\
-      2) Nechat pole "Jméno" volné\
-      3) Zadat platné tel. číslo, email & heslo\
-      4) Kliknout na tlačítko registruj\
-      => Zobrazí se hláška "Registrace úspěšná"\
-      => Při dalších pokusech se zobrazí hláška "Daný uživatel již existuje"\
+Steps:
+1) Navštívit registrační stránku https://www.xxxxxx.cz
+2) Nechat pole "Jméno" volné
+3) Zadat platné tel. číslo, email & heslo
+4) Kliknout na tlačítko registruj\
+=> Zobrazí se hláška "Registrace úspěšná"\
+=> Při dalších pokusech se zobrazí hláška "Daný uživatel již existuje"
+
 Repro: 100% 5/5\
 \
-Attachments: Screenshot001.jpg\
+Attachments: Screenshot001.jpg
 
 ## Úloha Dokumentace č. 1 – Uživatelská dokumentace
 ### Napište v češtině a angličtině uživatelský návod pro scénář "V systému 'VYHLEDÁVÁNÍ V REGISTRU (WHOIS)' na stránkách nic.cz stáhnout 'Ověřený výpis z registru' držitele domény 'tablexia.cz'"
